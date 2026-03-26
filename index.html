@@ -8,9 +8,9 @@
     <!-- Preconnect for fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Inter and a clean pixel font (VT323) -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=VT323&display=swap"
         rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,9 +19,9 @@
         <main class="hero fade-in-up">
             <div class="avatar-wrapper" id="avatarWrapper">
                 <div class="avatar-circle">
-                    <!-- Datamoshed emblem/video 512x512 -->
-                    <video autoplay loop muted playsinline class="avatar-video">
-                        <source src="content/birdy-animation-moshed.mp4" type="video/mp4">
+                    <!-- Datamoshed emblem/video 512x512 with SVG fallback -->
+                    <video autoplay loop muted playsinline class="avatar-video" poster="content/birdy-vector-2024.svg">
+                        <source src="content/Birdy-Animation-Moshed.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>

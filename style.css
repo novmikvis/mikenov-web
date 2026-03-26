@@ -88,6 +88,11 @@ body {
   transition: transform 0.1s ease-out;
   /* smooth follow */
   border: 1px solid var(--ui-2);
+  /* SVG Fallback */
+  background-color: #ffffff;
+  background-image: url('content/birdy-vector-2024.svg');
+  background-size: cover;
+  background-position: center;
 }
 
 .avatar-video {
